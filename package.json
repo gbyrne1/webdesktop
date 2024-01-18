@@ -1,0 +1,30 @@
+{
+    "name": "webdesktop",
+    "version": "1.0.0",
+    "description": "",
+    "license": "BSD",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gbyrne1/webdesktop.git"
+    },
+    "private": true,
+  
+    "workspaces": [
+      
+    ],
+  
+  
+    "scripts": {
+      "build": "npm i -ws && npm run build -ws",
+      "start": "node server/index.js",
+      "dev": "nodemon server/index.js --watch server"
+    },
+  
+    "dependencies": {
+     
+    },
+    "devDependencies": {
+      
+    }
+  
+  }
